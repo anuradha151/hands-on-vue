@@ -2,13 +2,19 @@ new Vue({
     el: '#vue-app',
     data: {
         name: 'Anuradha',
-        job: 'Engineer',
+        job: 'Development',
         website:'https://www.youtube.com/',
         age:25,
         a:0,
         b:0,
         error:false,
-        success:false
+        success:false,
+        characters:['Spiderman','Batman','Superman'],
+        pawns:[
+            {name:'Kavinda',age:23},
+            {name:'Usitha',age:24},
+            {name:'Vishwa',age:21},
+        ]
     },
     methods: {
         greet: function (word) {
