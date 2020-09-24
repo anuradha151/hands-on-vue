@@ -3,7 +3,8 @@ new Vue({
     data: {
         name: 'Anuradha',
         job: 'Engineer',
-        website:'https://www.youtube.com/'
+        website:'https://www.youtube.com/',
+        age:25
     },
     methods: {
         greet: function (word) {

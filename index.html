@@ -14,6 +14,10 @@
     <h1>Function : {{greet('one')}}</h1>
     <a :href="website">Youtube</a>
     <input type="text" v-bind:value="name"/>
+    <h1>Events</h1>
+    <button v-on:click="age++" >Add a year</button>
+    <button v-on:click="age--" >Subtract a year</button>
+    <p>My age : {{age}}</p>
 </div>
 
 <script src="app.js"></script>
