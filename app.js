@@ -6,7 +6,9 @@ new Vue({
         website:'https://www.youtube.com/',
         age:25,
         a:0,
-        b:0
+        b:0,
+        error:false,
+        success:false
     },
     methods: {
         greet: function (word) {
