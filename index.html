@@ -40,6 +40,10 @@
     <ul>
         <li v-for="(pawn, index) in pawns">{{index}}. pawn : {{pawn.name}} - {{pawn.age}}</li>
     </ul>
+    <h1>Refs</h1>
+    <input type="text" ref="input" />
+    <button v-on:click="readRefs">Submit</button>
+    <p>Your super hero : {{output}}</p>
 </div>
 
 <script src="app.js"></script>
